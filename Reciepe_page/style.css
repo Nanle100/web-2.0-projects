@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    padding: 0;
+
+ } 
+.container{
+    width: 100%;
+    font-family: sans-serif;
+}
+header img{
+    width: 100%;
+
+}
+
+.simple{
+    margin: 0px 10%;
+}
+.simple h1{
+    font-size: 30px;
+} 
+.simple p{
+ font-size: 15px;
+ line-height: 1.8em;
+}
+
+.container-two{
+    background-color: antiquewhite;
+    margin: 0px 10%;
+    border-radius: 10px;
+    padding: 10px 17px;
+}
+
+.container-two h3{
+    font-weight: bold;
+}
+.container-two ul{
+    line-height: 1.8em;
+}
+span{
+    font-weight: bold;
+}
+
+.container-three{
+    margin: 0px 10%;
+}
+.container-three h2{
+    font-weight: bold;
+    color: rgb(117, 4, 4);
+}
+.container-three ul{
+    line-height: 1.8em;
+}
+
+.container-four{
+    margin: 0px 10%;
+}
+.container-four h2{
+    font-weight: bold;
+    color: rgb(117, 4, 4);
+}
+.container-four ol{
+    line-height: 1.8em;
+}
+
+.container-five{
+    margin: 0px 10%;
+}
+.container-five h2{
+    font-weight: bold;
+    color: rgb(117, 4, 4);
+}
+.container-five ul{
+    line-height: 1.8em;
+}
+
+.container-six{
+    margin: 0px 10%;
+}
+.container-six h2{
+    font-weight: bold;
+    color: rgb(117, 4, 4);
+}
+.container-six ol{
+    line-height: 1.8em;
+}
+
+.container-seven{
+    margin: 0px 10%;
+}
+.container-seven h2{
+    font-weight: bold;
+    color: rgb(117, 4, 4);
+}
+.container-seven p{
+    line-height: 1.8em;
+}
+.table-one{
+    line-height: 1.8em;
+}
+table{
+    width: 100%;
+}
+th {
+    text-align: left;
+} 
+td th{
+    padding: 10px;
+}
+
+@media screen and (min-width:600px) {
+    header img{
+        max-width: 100%;
+       border-radius: 40px;
+       padding: 10px 16px;
+    }
+}
+@media screen and (min-width:600px) {
+    .simple{
+        margin: 0px 0%;
+        max-width: 100%;
+        padding: 10px 15px;
+    }
+
+    hr{
+        margin: 0px 0%;
+        max-width: 100%;
+        margin: 0px 15px;
+    }
+}
+
+@media screen and (min-width:600px) {
+    
+    .container-two{
+        margin: 0px 0%;
+        max-width: 100%;
+        margin: 0px 15px;
+    }
+
+    .container-three{
+        margin: 0px 0%;
+        max-width: 100%;
+        margin: 0px 15px;
+    }
+
+    .container-four{
+        margin: 0px 0%;
+        max-width: 100%;
+        margin: 0px 15px;
+    }
+    .container-five{
+        margin: 0px 0%;
+        max-width: 100%;
+        margin: 0px 15px;
+    }
+    .container-six{
+        margin: 0px 0%;
+        max-width: 100%;
+        margin: 0px 15px;
+    }
+    .container-seven{
+        margin: 0px 0%;
+        max-width: 100%;
+        margin: 0px 15px;
+    }
+}
